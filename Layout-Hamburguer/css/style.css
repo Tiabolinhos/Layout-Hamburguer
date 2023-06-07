@@ -1,0 +1,226 @@
+* {
+    font-size: 18px;
+}
+
+header,
+main {
+
+    background-color: RGB(255, 194, 52);
+}
+
+.imagem-principal {
+    position: relative;
+}
+
+.texto-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    color: RGB(65, 31, 9);
+}
+
+.texto-principal h3 {
+    border: 3px dashed RGB(65, 31, 9);
+    font-size: 1rem;
+    display: inline;
+    padding: 0.8rem;
+}
+
+.texto-principal h1 {
+    font-size: 4rem;
+}
+
+.texto-principal h2 {
+    font-size: 3rem;
+}
+
+.imagem-preco {
+    position: absolute;
+    bottom: 0;
+}
+
+.delivery span {
+    font-weight: bold;
+    color: RGB(65, 31, 9);
+}
+
+#Hamburguer-today {
+
+    color: white;
+}
+
+.hamburguer-esquerda {
+    background-image: url(/img/sessao1/fundo1.png);
+    width: 549px;
+    height: 387px;
+    color: white;
+    padding: 1rem;
+
+}
+
+.hamburguer-direita1 {
+    background-image: url(/img/sessao1/fundo2.png);
+    width: 548px;
+    height: 177px;
+    color: white;
+    padding: 1rem;
+    
+}
+
+.hamburguer-direita2 {
+    background-image: url(/img/sessao1/fundo3.png);
+    width: 548px;
+    height: 177px;
+    padding: 1rem;
+}
+
+.menu-textos {
+    color: RGB(65, 31, 9);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.menu-textos h4 {
+    font-size: 1rem;
+    background-color: RGB(255, 194, 52);
+    display: flex;
+    width: max-content;
+    padding: 0.5rem;
+}
+
+.menu-textos h3 {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.menu-textos p {
+
+    padding: 0 5rem 2rem 5rem;
+}
+
+.card {
+    color: RGB(65, 31, 9);
+    border: none;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-text {
+    font-size: 1rem;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.btn-primary {
+    background-color: RGB(223, 28, 28);
+    border: none;
+    font-weight: bold;
+    width: 70%;
+    border-radius: 1px;
+}
+
+.btn-primary:hover {
+
+    background-color: RGB(255, 194, 52);
+}
+.discover-imagem{
+    width: 100%;
+
+}
+
+#discover h4{
+    font-size:1.3rem;
+}
+#discover h3{
+    font-size: 2rem;
+    font-weight:bold;
+}
+#discover p{
+    font-size: 0.8rem;
+}
+
+#form-reserva{
+  width: 80%;
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: rgb(237, 235, 235);
+  margin: auto;
+  margin-top: 100px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.formulario_titulo {
+    text-align: center;
+}
+.forms{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.form-control{
+    margin-bottom: 20px;
+    width: 420px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: RGB(255, 194, 52);
+    font-family: 'Anton',sans-serif;
+    border:none;
+}
+
+.botao{
+    margin-bottom: 20px;
+    width: 420px;
+    height: 40px;
+}
+@media (max-width:980px) {
+    * {
+        font-size: 20px;
+    }
+
+    #Hamburguer-today.row {
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+    }
+    .hamburguer-direita{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .card-img-top {
+        width: 40%;
+    }
+
+    .btn-primary {
+        width: 60%;
+    }
+}
+
+@media (max-width:576px) {
+    .card {
+        height: 350px;
+    }
+}
